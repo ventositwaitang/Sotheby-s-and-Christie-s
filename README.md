@@ -1,6 +1,6 @@
 # Sotheby's & Christie's
 
-"Sotheby's & Christie's" are Python Scraping programs for Artworks info from Auctions: [Sotheby's](https://www.sothebys.com/en/search?query=claude%20monet&tab=objects) & [Christie's](https://www.christies.com/en/search?entry=claude%20monet&page=1&sortby=relevance&tab=sold_lots)
+"Sotheby's & Christie's" are Python Scraping programs for Artworks Data from Auctions: [Sotheby's](https://www.sothebys.com/en/search?query=claude%20monet&tab=objects) & [Christie's](https://www.christies.com/en/search?entry=claude%20monet&page=1&sortby=relevance&tab=sold_lots)
 
 ## Installation
 
