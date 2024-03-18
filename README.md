@@ -1,6 +1,6 @@
 # Sotheby's & Christie's
 
-"Sotheby's & Christie's" is a Python Dynamic-Crawling program for Sentiment of news info from [Sotheby's](https://www.sothebys.com/en/search?query=claude%20monet&tab=objects) & [Christie's](https://www.christies.com/en/search?entry=claude%20monet&page=1&sortby=relevance&tab=sold_lots)
+"Sotheby's & Christie's" is a Python Scraping program for Artworks info from Auction Markets: [Sotheby's](https://www.sothebys.com/en/search?query=claude%20monet&tab=objects) & [Christie's](https://www.christies.com/en/search?entry=claude%20monet&page=1&sortby=relevance&tab=sold_lots)
 
 ## Installation
 
