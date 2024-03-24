@@ -20,10 +20,10 @@ for name in names:
 
     now = dt.datetime.now().strftime("%Y-%m-%d_%H.%M")
     try:
-      f_ = open(f"Data Lake/{artist_name}/'{artist_name}'_{now}.csv", 'a+', newline='')
+      f_ = open(f"Data Lake/{artist_name}/{artist_name}_{now}.csv", 'a+', newline='')
     except:
       os.makedirs(f"Data Lake/{artist_name}")
-      f_ = open(f"Data Lake/{artist_name}/'{artist_name}'_{now}.csv", 'a+', newline='')
+      f_ = open(f"Data Lake/{artist_name}/{artist_name}_{now}.csv", 'a+', newline='')
     writer = csv.DictWriter(f_, fieldnames=['', 'Artist name', 'Title of Artwork', 'Artwork type', 'Auction', 'Location', 'Closed date', 'Currency', 'low Estimate', 'high Estimate', 'Price realised', 'Details', 'Website link'])
     writer.writeheader()
 
